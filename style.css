@@ -1,7 +1,7 @@
 /* fonts */
 @font-face {
   font-family: "IRANSans";
-  src: url(/fonts/FontsFree-Net-ir_sans.ttf);
+  src: url('/fonts/FontsFree-Net-ir_sans.ttf');
 }
 p {
   margin-bottom: 0px;
