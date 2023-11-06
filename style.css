@@ -1,8 +1,14 @@
 /* fonts */
-@font-face {
-  font-family: "IRANSans";
-  src: url('/FontsFree-Net-ir_sans.ttf');
+ @font-face{
+  font-family:ISans;
+  src:url('FontsFree-Net-ir_sans.eot');
+  src:url('FontsFree-Net-ir_sans.eot?#iefix')format('embedded-opentype'),
+    url('FontsFree-Net-ir_sans.woff') format('woff'),
+    url('FontsFree-Net-ir_sans.ttf') format('truetype');
+  font-weight:normal}
 }
+
+
 p {
   margin-bottom: 0px;
 }
