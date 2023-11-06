@@ -1,0 +1,1348 @@
+/* fonts */
+@font-face {
+  font-family: "IRANSans";
+  src: url(/fonts/FontsFree-Net-ir_sans.ttf);
+}
+p {
+  margin-bottom: 0px;
+}
+/* end of fonts */
+/* main div */
+.heading {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  position: relative;
+}
+/* desktop and mobile background */
+.mobile-bk {
+  display: none;
+}
+@media screen and (max-width: 540px) {
+  .desktop-bk {
+    display: none;
+  }
+  .mobile-bk {
+    display: unset;
+  }
+}
+/* heading items logo text button ........... */
+/* div items */
+.all-heading-item {
+  position: absolute;
+  top: 0;
+  /* background-color: rgba(233, 40, 40, 0.486); */
+  max-width: 1440px;
+  height: 100%;
+  padding: 0;
+}
+
+/* itemssssssss */
+/* snap logo */
+.snap-trip-logo {
+  position: absolute;
+  margin-top: 5.347%;
+  margin-left: 85.139%;
+  width: 11.181%;
+}
+
+@media screen and (max-width: 540px) {
+  .snap-trip-logo {
+    width: 26.812%;
+    margin-top: 9.179%;
+    margin-left: 63.043%;
+  }
+}
+
+/* player */
+.player {
+  position: absolute;
+  margin-top: 5.347%;
+  margin-left: 3.681%;
+  color: #fff;
+  text-align: right;
+  font-family: "IRANSans";
+  font-size: 1.667vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  white-space: nowrap;
+}
+
+.player-data {
+  position: absolute;
+  margin-top: 8.194%;
+  margin-left: 4.167%;
+  color: #fff;
+  text-align: right;
+  font-family: "IRANSans";
+  font-size: 0.903vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  white-space: nowrap;
+  direction: rtl;
+}
+@media screen and (min-width: 1750px) {
+  .player-data {
+    margin-top: 10.194%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .player {
+    font-size: 3.865vw;
+    margin-top: 9.179%;
+    margin-left: 11.353%;
+  }
+  .player-data {
+    font-size: 2.174vw;
+    direction: rtl;
+    letter-spacing: -0.3px;
+    font-weight: 600px;
+    margin-top: 15.942%;
+    margin-left: 11.353%;
+  }
+}
+
+/* mobile campain detail */
+.mobile-campain-detail {
+  display: none;
+}
+@media screen and (max-width: 540px) {
+  .mobile-campain-detail {
+    width: 85.749%;
+    position: absolute;
+    display: unset;
+    direction: rtl;
+    color: #fff;
+    text-align: justify;
+    font-family: "IRANSans";
+    font-size: 3.04vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 161.111%;
+    margin-left: 7.213%;
+  }
+}
+
+/* lucky trip logo */
+.lucky-trip-logo {
+  position: absolute;
+  margin-top: 23.889%;
+  margin-left: 20.764%;
+  width: 16.042%;
+}
+
+@media screen and (max-width: 540px) {
+  .lucky-trip-logo {
+    width: 48.068%;
+    margin-top: 111.111%;
+    margin-left: 25.845%;
+  }
+}
+
+/* heading button */
+.heading-btn {
+  position: absolute;
+  margin-top: 54.514%;
+  margin-left: 41.111%;
+  background-color: rgba(255, 49, 64, 1);
+  border: 0px;
+  width: 17.778%;
+  height: 5.139%;
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 2.083vw;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  white-space: nowrap;
+  padding: 0px;
+}
+@media screen and (min-width: 1440px) {
+  .heading-btn {
+    font-size: 1.083vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .heading-btn {
+    margin-top: 186.232%;
+    margin-left: 30.676%;
+    width: 38.647%;
+    flex-shrink: 0;
+    font-size: 4.831vw;
+  }
+}
+/* scrowl down */
+.scrowl-div {
+  position: absolute;
+  margin-top: 62.153%;
+  display: flex;
+  justify-content: center;
+  height: 1.875%;
+  width: 100%;
+}
+
+.scrowl-down {
+  color: #fff;
+  text-align: right;
+  font-family: "IRANSans";
+  font-size: 1.25vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 1440px) {
+  .scrowl-div {
+    margin-top: 64.153%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .scrowl-div {
+    margin-top: 202.899%;
+    /* margin-left:0 ; */
+    height: 21px;
+  }
+  .scrowl-down {
+    font-size: 3.382vw;
+  }
+}
+/* arow */
+.heading-arow {
+  position: absolute;
+  margin-top: 64.028%;
+  width: 100%;
+  height: 3.333%;
+  display: flex;
+  justify-content: center;
+}
+.arow-img {
+  width: 3.333vw;
+}
+@media screen and (min-width: 1440px) {
+  .heading-arow {
+    margin-top: 66.028%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .heading-arow {
+    margin-top: 207.729%;
+    /* height: 30px; */
+  }
+  .arow-img {
+    width: 6.246vw;
+  }
+}
+
+/* end of itemsss */
+/* end of heading section */
+/* //////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+////////////////////////////////////////////////// */
+/* testimonials section */
+.testimonials {
+  height: 1160px;
+}
+/* rewards */
+.rewards {
+  border-radius: 47px;
+  background: rgba(95, 95, 95, 0.5);
+  max-width: 1334px;
+  height: 1160px;
+}
+@media screen and (max-width: 1322px) {
+  .rewards {
+    border-radius: 0px;
+  }
+}
+/* title */
+.title {
+  display: flex;
+  justify-content: center;
+  gap: 96px;
+  /* background-color: rgba(128, 255, 0, 0.297); */
+  padding-top: 93px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.left-line {
+  width: 26.012%;
+}
+.title-txt {
+  color: #fff;
+  text-align: center;
+  font-family: "IRANSans";
+  font-size: 2.999vw;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  white-space: nowrap;
+}
+.right-line {
+  width: 26.012%;
+}
+@media (min-width: 918px) and (max-width: 932px) {
+  .testimonials {
+    height: 1500px;
+  }
+
+  .rewards {
+    height: 1500px;
+  }
+}
+@media screen and (max-width: 917px) {
+  .testimonials {
+    height: 1500px;
+  }
+  .rewards {
+    height: 1500px;
+  }
+}
+@media (min-width: 677px) and (max-width: 691px) {
+  .testimonials {
+    height: 1750px;
+  }
+
+  .rewards {
+    height: 1750px;
+  }
+}
+@media screen and (max-width: 676px) {
+  .testimonials {
+    height: 1750px;
+  }
+
+  .rewards {
+    height: 1750px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .testimonials {
+    height: 1100px;
+  }
+
+  .rewards {
+    height: 1100px;
+  }
+}
+@media screen and (max-width: 424px) {
+  .testimonials {
+    height: 1250px;
+  }
+
+  .rewards {
+    height: 1250px;
+  }
+}
+@media screen and (max-width: 278px) {
+  .testimonials {
+    height: 1400px;
+  }
+
+  .rewards {
+    height: 1400px;
+  }
+}
+@media screen and (max-width: 267px) {
+  .testimonials {
+    height: 2200px;
+  }
+
+  .rewards {
+    height: 2200px;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .title {
+    justify-content: space-around;
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .left-line {
+    display: none;
+  }
+  .right-line {
+    display: none;
+  }
+  .title-txt {
+    font-size: 5.797vw;
+  }
+  .title {
+    padding-top: 16.184%;
+  }
+}
+
+/* reward item */
+.reward-list {
+  /* background-color: rgba(165, 42, 42, 0.642); */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 46px;
+  margin-top: 125px;
+}
+@media screen and (max-width: 500px) {
+  .reward-list {
+    margin-top: 57px;
+  }
+}
+
+.red-circle {
+  width: 195px;
+}
+.item1 {
+  position: relative;
+  text-align: center;
+}
+.Samsung-watch {
+  position: absolute;
+  left: 0;
+  width: 126.294px;
+  height: 247.434px;
+  margin-left: 32px;
+  margin-top: -22px;
+}
+.item1-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .Samsung-watch {
+    width: 71.733px;
+    height: 140.538px;
+    margin-left: 20px;
+    margin-top: -13px;
+  }
+  .item1-txt {
+    font-size: 14px;
+  }
+}
+/* end of item 1 */
+.item2 {
+  position: relative;
+  text-align: center;
+}
+
+.apple-watch {
+  position: absolute;
+  left: 0;
+  width: 136.294px;
+  height: 247.434px;
+  margin-left: 31px;
+  margin-top: -20px;
+}
+
+.item2-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .apple-watch {
+    width: 77.733px;
+    height: 148.538px;
+    margin-left: 17px;
+    margin-top: -16px;
+  }
+
+  .item2-txt {
+    font-size: 14px;
+  }
+}
+/* end of item 2 */
+.item3 {
+  position: relative;
+  text-align: center;
+}
+
+.suitcase {
+  position: absolute;
+  left: 0;
+  width: 221.659px;
+  height: 247.434px;
+  margin-left: -15px;
+  margin-top: -23px;
+}
+
+.item3-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .suitcase {
+    width: 125.899px;
+    height: 140.538px;
+    margin-left: -7px;
+    margin-top: -13px;
+  }
+
+  .item3-txt {
+    font-size: 14px;
+  }
+}
+
+/* end of item 3 */
+.item4 {
+  position: relative;
+  text-align: center;
+}
+
+.iphone {
+  position: absolute;
+  left: 0;
+  width: 126.294px;
+  height: 247.434px;
+  margin-left: 35px;
+  margin-top: -22px;
+}
+
+.item4-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .iphone {
+    width: 71.733px;
+    height: 140.538px;
+    margin-left: 20px;
+    margin-top: -13px;
+  }
+
+  .item4-txt {
+    font-size: 14px;
+  }
+}
+
+/* end of item 4 */
+.item5 {
+  position: relative;
+  text-align: center;
+}
+
+.galaxy-s21 {
+  position: absolute;
+  left: 0;
+  width: 126.294px;
+  height: 247.434px;
+  margin-left: 35px;
+  margin-top: -22px;
+}
+
+.item5-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .galaxy-s21 {
+    width: 71.733px;
+    height: 140.538px;
+    margin-left: 20px;
+    margin-top: -13px;
+  }
+
+  .item5-txt {
+    font-size: 14px;
+  }
+}
+
+/* end of item 5 */
+
+.item6 {
+  position: relative;
+  text-align: center;
+}
+
+.power-bank {
+  position: absolute;
+  left: 0;
+  width: 126.294px;
+  height: 247.434px;
+  margin-left: 35px;
+  margin-top: -22px;
+}
+
+.item6-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .power-bank {
+    width: 71.733px;
+    height: 140.538px;
+    margin-left: 20px;
+    margin-top: -13px;
+  }
+
+  .item6-txt {
+    font-size: 14px;
+  }
+}
+
+/* end of item 6 */
+.item7 {
+  position: relative;
+  text-align: center;
+}
+
+.radio {
+  position: absolute;
+  left: 0;
+  width: 270.631px;
+  height: 268.053px;
+  margin-left: -40px;
+  margin-top: -32px;
+}
+
+.item7-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .radio {
+    width: 153.713px;
+    height: 152.249px;
+    margin-left: -21px;
+    margin-top: -20px;
+  }
+
+  .item7-txt {
+    font-size: 14px;
+  }
+}
+/* end of item 7 */
+
+.item8 {
+  position: relative;
+  text-align: center;
+}
+.mi-band {
+  position: absolute;
+  left: 0;
+  width: 140.294px;
+  height: 260.434px;
+  margin-left: 27px;
+  margin-top: -28px;
+}
+
+.item8-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .mi-band {
+    width: 71.733px;
+    height: 140.538px;
+    margin-left: 20px;
+    margin-top: -13px;
+  }
+
+  .item8-txt {
+    font-size: 14px;
+  }
+}
+
+/* end of item 8 */
+.item9 {
+  position: relative;
+  text-align: center;
+}
+
+.camera {
+  position: absolute;
+  left: 0;
+  width: 199.02px;
+  height: 268.489px;
+  margin-left: -2px;
+  margin-top: -32px;
+}
+
+.item9-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .camera {
+    width: 113.04px;
+    height: 152.497px;
+    margin-left: -2px;
+    margin-top: -19px;
+  }
+
+  .item9-txt {
+    font-size: 14px;
+  }
+}
+/* end of item 9 */
+.item10 {
+  position: relative;
+  text-align: center;
+}
+
+.tagoob {
+  position: absolute;
+  left: 0;
+  width: 240px;
+  height: 285px;
+  margin-left: -20px;
+  margin-top: -39px;
+}
+
+.item10-txt {
+  color: #fff;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 27px;
+}
+@media screen and (max-width: 500px) {
+  .red-circle {
+    width: 111px;
+  }
+
+  .tagoob {
+    width: 136.316px;
+    height: 161.875px;
+    margin-left: -8px;
+    margin-top: -22px;
+  }
+
+  .item10-txt {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1159px) and (max-width: 1210px) {
+  .tagoob {
+    width: 205px;
+    height: 245px;
+    margin-left: -10px;
+    margin-top: -29px;
+  }
+}
+@media screen and (max-width: 292px) {
+  .tagoob {
+    width: 130.316px;
+    height: 157.875px;
+    margin-left: -8px;
+    margin-top: -22px;
+  }
+}
+
+/* end of item 10 */
+/* end of reward item */
+/* lower part of testimonials */
+.lower-part-testimonials {
+  /* background-color: rgba(255, 0, 212, 0.241); */
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 156px;
+}
+.end-left-line {
+  width: 38.231%;
+}
+.end-right-line {
+  width: 38.231%;
+}
+@media screen and (max-width: 917px) {
+  .lower-part-testimonials {
+    display: none;
+  }
+}
+@media (min-width: 918px) and (max-width: 1158px) {
+  .lower-part-testimonials {
+    display: none;
+  }
+}
+@media (min-width: 1150px) and (max-width: 1173px) {
+  .lower-part-testimonials {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .lower-part-testimonials {
+    display: none;
+  }
+}
+@media screen and (max-width: 679px) {
+  .lower-part-testimonials {
+    display: none;
+  }
+}
+/* end of rewards */
+/* end of testimonials */
+/* //////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+////////////////////////////////////////////////// */
+/* rules section */
+.rules {
+  padding-bottom: 60px;
+}
+
+.rule-title {
+  color: #afafaf;
+  text-align: center;
+  font-family: "IRANSans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 46px;
+}
+.rules-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  direction: rtl;
+}
+@media screen and (min-width: 1440px) {
+  .rules-item {
+    align-items: center;
+  }
+}
+@media (min-width: 100px) and (max-width: 500px) {
+  .rule-title {
+    font-size: 24px;
+  }
+}
+
+.rules-item li {
+  color: #5f5f5f;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media (min-width: 100px) and (max-width: 500px) {
+  .rules-item li {
+    font-size: 14px;
+  }
+}
+
+/* end of rules section */
+/* //////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+////////////////////////////////////////////////// */
+
+/* Competition section */
+.Competition {
+  padding-bottom: 76px;
+  background: #f1f1f1;
+}
+@media screen and (max-width: 500px) {
+  .Competition {
+    padding-bottom: 62px;
+  }
+}
+.Competition-title {
+  color: #afafaf;
+  font-family: "IRANSans";
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 56px;
+}
+@media (min-width: 100px) and (max-width: 500px) {
+  .Competition-title {
+    font-size: 24px;
+  }
+}
+/* end of title */
+
+.roads {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+  margin-top: 82px;
+}
+
+@media screen and (max-width: 500px) {
+  .roads {
+    margin-top: 37px;
+  }
+
+  .dizzin {
+    width: 166px;
+    height: 102px;
+  }
+  .chaloos {
+    width: 166px;
+    height: 102px;
+  }
+  .kashan {
+    width: 166px;
+    height: 102px;
+  }
+  .khazeron {
+    width: 166px;
+    height: 102px;
+  }
+}
+
+.roads-paragraph {
+  color: #5f5f5f;
+  text-align: center;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 33px;
+}
+@media screen and (max-width: 500px) {
+  .roads-paragraph {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 21px;
+  }
+}
+
+/* end of roads */
+
+.cars-title {
+  color: #5f5f5f;
+  text-align: center;
+  font-family: "IRANSans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-top: 97px;
+}
+
+@media screen and (max-width: 500px) {
+  .cars-title {
+    display: none;
+  }
+}
+/* cars */
+
+.cars {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 33px;
+}
+.cars p {
+  color: #5f5f5f;
+  text-align: right;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.car4 p {
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 500px) {
+  .cars img {
+    width: 85px;
+    height: 136px;
+  }
+  .cars p {
+    font-size: 12px;
+  }
+  .car4 p {
+    margin-top: 0px;
+  }
+}
+/* end of cars */
+.btn-div {
+  text-align: center;
+  margin-top: 115px;
+}
+.Competition-btn {
+  background-color: rgba(255, 49, 64, 1);
+  border: 0px;
+  width: 279px;
+  height: 74px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "IRANSans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@media screen and (max-width: 500px) {
+  .btn-div {
+    margin-top: 76px;
+  }
+
+  .Competition-btn {
+    width: 159px;
+    height: 62px;
+    font-size: 20px;
+  }
+}
+/* end of button */
+
+.lower-Competition {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+.player-name {
+  color: #5f5f5f;
+  text-align: center;
+  font-family: "IRANSans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.72px;
+  margin-right: 17px;
+}
+.health-number {
+  color: #ff3140;
+  text-align: center;
+  font-family: "IRANSans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.72px;
+}
+
+@media screen and (max-width: 500px) {
+  .player-name {
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
+/* end of Competition section */
+/* //////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+//////////////////////////////////////////////////
+////////////////////////////////////////////////// */
+/* footer section */
+.footer {
+  text-align: center;
+}
+.winners {
+  background: #9e86da;
+  max-width: 1297px;
+  height: 435px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 47px;
+  margin-top: 97px;
+}
+.left-part {
+  text-align: center;
+}
+.footer-title {
+  color: #fff;
+  text-align: center;
+  font-family: "IRANSans";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  direction: rtl;
+  margin-left: 100px;
+  margin-top: 53px;
+}
+
+.footer-light-line {
+  margin-left: 90px;
+}
+.winners-name {
+  display: flex;
+  justify-content: space-between;
+}
+.winners-name ul {
+  list-style: none;
+}
+.ul1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 90px;
+  padding: 0px;
+  gap: 20px;
+}
+.ul2 {
+  padding: 0px;
+    display: flex;
+      flex-direction: column;
+        gap: 20px;
+}
+
+.ul2 li {
+  color: #fff;
+  text-align: right;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.ul1 li {
+  color: #fff;
+  text-align: left;
+  font-family: "IRANSans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.right-part {
+  margin-top: -40px;
+}
+
+@media screen and (max-width: 1257px) {
+  .winners {
+    border-radius: 0px;
+    justify-content: center;
+    height: 800px;
+  }
+  .footer-title {
+    margin: 0px;
+    margin-top: 90px;
+  }
+  .footer-light-line {
+    margin: 0px;
+  }
+  .ul1 {
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .winners {
+    border-radius: 0px;
+    justify-content: center;
+  }
+  .left-part {
+    justify-content: flex-start;
+  }
+
+  .footer-title {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .footer-light-line {
+    width: 349px;
+    stroke-width: 2px;
+  }
+
+  .winners-name {
+    flex-wrap: wrap;
+  }
+  .ul2 li {
+    color: #fff;
+    text-align: right;
+    font-family: "IRANSans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .ul1 li {
+    color: #fff;
+    text-align: left;
+    font-family: "IRANSans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .right-part-img {
+    width: 415px;
+    height: 360px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .right-part-img {
+    width: 315px;
+    height: 260px;
+  }
+}
+
+.footer-lower-part {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 97px;
+}
+@media screen and (max-width: 1185px) {
+  .footer-lower-part {
+    display: none;
+  }
+}
+
+@media (min-width: 764px) and (max-width: 800px) {
+.winners {
+  height: 400px;
+}
+
+}
+@media screen and (max-width: 1185px) {
+    .winners {
+          margin-top:0px ;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .winners {
+    height: 500px;
+  }
+    .right-part {
+      margin-top: 30px;
+    }
+
+}
+@media (min-width: 1024px) and (max-width: 1336px) {
+  .winners {
+    height: 950px;
+  }
+
+}
+
+
+
+/* end of the footer section  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
