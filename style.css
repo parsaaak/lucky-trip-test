@@ -1,7 +1,10 @@
 /* fonts */
 @font-face {
   font-family: "IRANSans";
-  src: url(FontsFree-Net-ir_sans.ttf) format(ttf);
+   src: url(FontsFree-Net-ir_sans.ttf) format(ttf),     url(FontsFree-Net-ir_sans.woff) format(woff),     url(FontsFree-Net-ir_sans.woff2) format(woff2);
+}
+body{
+   font-family: "IRANSans";
 }
 p {
   margin-bottom: 0px;
@@ -31,7 +34,7 @@ p {
 .all-heading-item {
   position: absolute;
   top: 0;
-  background-color: rgba(233, 40, 40, 0.486); 
+  background-color: #9e86da;
   max-width: 1440px;
   height: 100%;
   padding: 0;
